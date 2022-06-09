@@ -1,2 +1,2 @@
-#Pedro Lucas dos Santos Rodrigues - RA: 
-#Ciclo de vida de desenvolvimento de software
+# Pedro Lucas dos Santos Rodrigues - RA: 
+# Ciclo de vida de desenvolvimento de software
