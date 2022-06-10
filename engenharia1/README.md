@@ -15,9 +15,8 @@
 ![foto](https://github.com/Pedrolucasrd/Bertoti/blob/f7f6a34a407759ddf23d41e339b2537d37822cb0/engenharia1/imagens/2.PNG)
 
 # Projeto de sistema
-[...conteudo...]
-![foto(https://github.com/alantrs/Bertoti/blob/a402c0826d0851aae412e6fb62093151dca76e77/engenharia%20de%20software/engenharia%20de%20software/Projeto%20de%20sistema.png)
+![foto](https://github.com/alantrs/Bertoti/blob/a402c0826d0851aae412e6fb62093151dca76e77/engenharia%20de%20software/engenharia%20de%20software/Projeto%20de%20sistema.png)
 
 # Desenvolvimento
-... conteudo...
+![foto](https://github.com/Pedrolucasrd/Bertoti/blob/e4dcb28a21b135a0eddd435a04c32877a7f2b31d/engenharia1/imagens/3.PNG)
     
