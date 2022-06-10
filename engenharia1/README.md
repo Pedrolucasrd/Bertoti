@@ -12,7 +12,7 @@
     
 # - Não Funcionais
     usabilidades
-    ...conteudo...
+![foto](https://github.com/Pedrolucasrd/Bertoti/blob/f7f6a34a407759ddf23d41e339b2537d37822cb0/engenharia1/imagens/2.PNG)
 
 # Projeto de sistema
 ...conteudo...
