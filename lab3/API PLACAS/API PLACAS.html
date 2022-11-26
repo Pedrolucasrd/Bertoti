@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Register - SB Admin</title>
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+        <script>
+            function buscar(){
+            $(document).ready(function(){
+                            var placa = document.getElementById('inputPlaca').value
+                              $.getJSON("https://wdapi.com.br/placas/"+placa+"/789c8bc2b641e26b8857b0c159e16064",function(data){
+                                $("#marca").append(data.marca);
+                                $("#modelo").append(data.modelo);
+                                $("#versao").append(data.VERSAO);
+                                $("#ano").append(data.anoModelo);
+                                $("#cor").append(data.cor);
+                                $("#combustivel").append(data.combustivel);
+                                console.log(data)
+                                document.getElementById("logo").src = data.logo;
+                                
+                              })
+                            })
+                        }
+                        
+                        function botaoclick(){
+                window.location = "aa";
+                                }
+        </script>
+    </head>
+    <body class="bg-primary">
+        <div id="layoutAuthentication">
+            <div id="layoutAuthentication_content">
+                <main>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7">
+                                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">BUSCAR PLACA</h3></div>
+                                    <div class="card-body">
+                                        <form>
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="inputPlaca" type="text" placeholder="Enter your first name" />
+                                                        <label id="aa" for="inputFirstName">Placa</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-2">
+                                                    <div class="form-floating">
+                                                        <button type="button" class="btn btn-primary btn-lg" onclick="buscar()">Buscar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="inputPassword" type="password" placeholder="Create a password" disabled="disabled" />
+                                                        <label for="inputPassword" id="marca">Marca: </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="inputPasswordConfirm" type="password" placeholder="Confirm password" disabled="disabled" />
+                                                        <label for="inputPasswordConfirm" id="modelo">Modelo: </label>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="inputPassword" type="password" placeholder="Create a password" disabled="disabled" />
+                                                        <label for="inputPassword" id="versao">Versao: </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="inputPasswordConfirm" type="password" placeholder="Confirm password" disabled="disabled" />
+                                                        <label for="inputPasswordConfirm" id="cor">Cor: </label>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="row mb-3">
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="inputPassword" type="password" placeholder="Create a password" disabled="disabled" />
+                                                        <label for="inputPassword" id="combustivel">Combustivel: </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-floating mb-3 mb-md-0">
+                                                        <input class="form-control" id="inputPassword" type="password" placeholder="Create a password" disabled="disabled" />
+                                                        <label for="inputPassword" id="ano">Ano: </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="mt-4 mb-0">
+                                                <div class="d-grid"><button class="btn btn-primary btn-block" onclick="botaoclick()">Buscar anúncios</button></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                   
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-md-4">
+                                        <div class="form-floating mb-3 mb-md-0">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-floating">
+                                            <img id="logo" src="" alt="Girl in a jacket" width="250px">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-">
+                                        <div class="form-floating">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
