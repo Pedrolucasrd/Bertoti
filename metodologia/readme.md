@@ -31,6 +31,12 @@ A biblioteca Chart.js é uma poderosa ferramenta em JavaScript para exibir dados
 
 <details>
   <summary>Desenvolvimento e personalização dos endpoints no back-end.</summary>
+  </br>
+  Para que tudo isso sejá possivel, ciramos um código que implementa uma API REST para manipulação de usuários em um sistema. A classe UsuarioController define os endpoints e os métodos que lidam com as requisições HTTP relacionadas aos usuários, como listar usuários, criar um novo usuário, editar um usuário existente e excluir um usuário.
+
+Através desses endpoints, os clientes podem interagir com o sistema, enviando requisições para obter informações dos usuários, criar novos usuários, atualizar informações existentes e excluir usuários. O controlador utiliza a classe UsuarioService para executar a lógica de negócio relacionada aos usuários, como acessar o banco de dados, realizar validações e manipular os objetos de usuário.
+
+Portanto, o objetivo principal do código é fornecer uma interface para a manipulação de usuários em um sistema, seguindo as práticas e convenções do padrão REST. Isso permite que os clientes interajam com o sistema de forma padronizada e eficiente, através de requisições HTTP bem definidas.
 
   ```java
       private UsuarioService usuarioService;
