@@ -1,1 +1,1 @@
-![](https://github.com/Pedrolucasrd/Bertoti/blob/f866119a2db680ab7bf2784e913af51843a74d2b/padroesProjetos/imagens/image.PNG)
+![](https://github.com/Pedrolucasrd/Bertoti/blob/42217dbffdd0f8d533795c34048db422090424cb/padroesProjetos/imagens/image.png)
